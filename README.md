@@ -18,8 +18,12 @@ You will also see any lint errors in the console.
 **Note: Important! it is needed an .env file on the root of the project containig the keys used by Google Maps and openweathermap**
 
 The structure of the file is like this:
+
 REACT_APP_WEATHER_API_KEY={yourkey}
-REACT_APP_GOOGLE_MAPS_API_KEY={yourkey} Billing configuration needs to set in order to get the autocomplete to work on the input and remove overlay on the map
+
+REACT_APP_GOOGLE_MAPS_API_KEY={yourkey} 
+
+Google requires rilling configuration needs to set in order to get the autocomplete to work on the input and remove overlay on the map
 
 ### `Services Used`
 
