@@ -1,6 +1,6 @@
 import { STORAGE_SEARCHES, WEATHER_API_KEY } from '../constants'
 
-import React, { createContext, useMemo, useState, useContext, useEffect } from 'react'
+import React, { createContext, useMemo, useState, useContext } from 'react'
 
 import { useQuery } from 'react-query'
 
@@ -91,7 +91,7 @@ export function WeatherProvider (props) {
       deleteCity
 
     })
-  }, [isLoading, isError, cityData, searchedCities])
+  }, [cityData, isLoading, isError, error, searchedCities])
   return <WeatherContext.Provider value={value} {...props}></WeatherContext.Provider>
 }
 export function useWeather () {
