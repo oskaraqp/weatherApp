@@ -250,7 +250,7 @@ const Weather = (props) => {
                       Max Temp. : {cityData.main.temp_max}
                     </Typography>
                     <Typography variant='subtitle2' component='div'>
-                       Min Temperature : {cityData.main.temp_min}
+                       Min Temp. : {cityData.main.temp_min}
                     </Typography>
                   </Grid>
                   <Grid container direction='row' item xs={6}>
